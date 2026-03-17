@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+google-generativeai
+faiss-cpu
+numpy
+unstructured[pdf]
+unstructured-inference
+python-dotenv
