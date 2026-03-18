@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routers import ai_router
+from app.routers import ai_router, langchain_router
 
 app = FastAPI()
 
@@ -8,3 +8,4 @@ def home():
     return {"message": "RAG API Running"}
 
 app.include_router(ai_router.router)
+app.include_router(langchain_router.router)
